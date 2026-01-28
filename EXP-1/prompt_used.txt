@@ -19,4 +19,3 @@ printing weights every time is okay but format looks messy, what is a cleaner wa
 is stopping when no error in one full loop correct for perceptron convergence
 
 After all these Changes give a Final Code 
-
