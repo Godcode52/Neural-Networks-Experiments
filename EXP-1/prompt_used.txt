@@ -1,0 +1,22 @@
+i am implementing a basic perceptron for and gate. i want a clean python code using numpy and matplotlib where decision boundary is shown on a 4 quadrant graph and it updates after every weight change. code should print weights while training, stop only after convergence and at the end print final weights. keep it simple and standard so i can upload on github, no extra comments or fancy stuff
+
+is it okay if i keep bias as separate variable or should i add it with input as x0 = 1, which one is more standard
+
+learning rate is 1 right now, feels like line is jumping too much, should i reduce it to something like 0.1
+
+since bias is added in input, should weight vector size change also
+
+we assumed 0 is positive in class, so using >= 0 in step is fine right
+
+plot_boundary function feels unnecessary for small code, can i just write plotting directly inside loop
+
+instead of coloring points by label, can i color them based on correct or wrong prediction
+
+sir showed everything on proper 4 quadrant graph, should i always draw x and y axis and keep limits fixed
+
+printing weights every time is okay but format looks messy, what is a cleaner way to print them
+
+is stopping when no error in one full loop correct for perceptron convergence
+
+After all these Changes give a Final Code 
+
