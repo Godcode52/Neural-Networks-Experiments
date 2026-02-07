@@ -1,21 +1,21 @@
-i am implementing a basic perceptron for and gate. i want a clean python code using numpy and matplotlib where decision boundary is shown on a 4 quadrant graph and it updates after every weight change. code should print weights while training, stop only after convergence and at the end print final weights. keep it simple and standard so i can upload on github, no extra comments or fancy stuff
+i want to implement perceptron learning using numpy and matplotlib to visualize nand and xor gates, update decision boundary after every weight change, show convergence for nand and failure for xor, keep code simple and standard.
 
-is it okay if i keep bias as separate variable or should i add it with input as x0 = 1, which one is more standard
+WAP to visualize the Perceptron Learning Algorithm using numpy and matplotlib/seaborn in Python. Evaluate performance of a single perceptron for NAND and XOR truth tables as input dataset. We are asked to do this
 
-learning rate is 1 right now, feels like line is jumping too much, should i reduce it to something like 0.1
+the Xor one keeps on going and going 
 
-since bias is added in input, should weight vector size change also
+but it must stop at some point for the output na
 
-we assumed 0 is positive in class, so using >= 0 in step is fine right
+xor is not linearly separable so perceptron won’t converge right, should i add epoch limit set it to 20 
 
-plot_boundary function feels unnecessary for small code, can i just write plotting directly inside loop
+if epoch limit is reached should i print something like not converged for xor case
 
-instead of coloring points by label, can i color them based on correct or wrong prediction
+what is a clean way to print weights during training without making output messy
 
-sir showed everything on proper 4 quadrant graph, should i always draw x and y axis and keep limits fixed
+i want code to stay simple and standard for assignment, no fancy stuff, is this structure okay
 
-printing weights every time is okay but format looks messy, what is a cleaner way to print them
+ok give a final code now 
 
-is stopping when no error in one full loop correct for perceptron convergence
+after every epoch in the output seprate every output of every epoch
 
-After all these Changes give a Final Code 
+tell me it is not supposed to converge using Xor gate right? Then writing did not converge within the epoch limit, would mean it can converge afterwards, right? Or is it okay? 
